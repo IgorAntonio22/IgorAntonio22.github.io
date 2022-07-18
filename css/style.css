@@ -76,6 +76,10 @@ main {width: 100%;}
     width: 100%;
     display: flex;
     margin-top: 20px;
+    border: 2px solid rgb(169, 210, 246);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 5px 0px rgba(0, 0, 0, .15);
+    color: white;
 }
 
 .card-img, 
@@ -88,6 +92,10 @@ main {width: 100%;}
     align-items: center;
 }
 
+.card-img-igor {
+    background-color: #8ed5cd;
+    padding: 30px 10px 10px 10px;
+}
 
 .card-img-igor img {
     width: 800px;
@@ -96,7 +104,11 @@ main {width: 100%;}
 
 .card-img-igor h2 {margin-top: 20px; margin-left: 80px;}
 
-.card-text {margin-left: 40px; 
+.card-text {margin-left: 40px;
+    padding: 10px 0px 10px 10px;
+    border-left: 2px solid rgb(255, 255, 255);
+    background-color: rgb(84, 167, 187);
+    margin: 0;
 }
 
 .card-text ul {
@@ -106,6 +118,11 @@ main {width: 100%;}
 }
 
 .card-text p + p {margin-top: 1em;}
+
+.card-text p {
+    color: white;
+}
+
 
 .card {
     max-width: 320px;
@@ -136,17 +153,17 @@ main {width: 100%;}
 
 .img-body-an,
 .img-body-an img {
-    width: 220px;
+    width: 170px;
     display: table;
     margin: 0 auto; 
     border-radius: 50%;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .img-body-pr,
 .img-body-pr img {
-    width: 230px;
+    width: 200px;
     display: table;
     margin: 0 auto; 
     border-radius: 0%;
@@ -162,6 +179,15 @@ main {width: 100%;}
     border-radius: 0%;
     padding-right: 10px;
     padding-top: 25px;
+}
+
+.img-body-js {
+    width: 150px;
+    display: table;
+    margin: 0 auto; 
+    border-radius: 0%;
+    padding-right: 10px;
+    padding-top: 30px;
 }
 
 .img-body-wp,
@@ -254,3 +280,8 @@ main {width: 100%;}
 .h3-gm {
     padding-top: 18px;
 }
+
+.h3-an {
+    padding-top: 15px;
+}
+
